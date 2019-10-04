@@ -23,8 +23,8 @@ body {
     position:relative;
 }
 #hideMe {
-    -webkit-animation: cssAnimation 14s forwards; 
-    animation: cssAnimation 14s forwards;
+    -webkit-animation: cssAnimation 10s forwards; 
+    animation: cssAnimation 10s forwards;
 }
 @keyframes cssAnimation {
     0%   {opacity: 1;}
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 0; }
   @media screen and (max-width: 768px) {
     .video-hero {
-      heifght: inherit;
+      height: inherit;
       padding: 3em 0; } }
   .video-hero .overlay {
     position: absolute;

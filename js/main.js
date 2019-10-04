@@ -274,7 +274,7 @@
 			cc_load_policy: false,
 			useOnMobile: true,
 			realfullscreen: true,
-			optimizeDisplay: true,
+			optimizeDisplay: true
 		});
 	};
 
