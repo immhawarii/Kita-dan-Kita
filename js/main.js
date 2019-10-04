@@ -269,26 +269,14 @@
 			loop: true,
 			mute: false,
 			startAt: 0,
-			opacity: 3,
+			opacity: 2,
 			quality: "small",
-			showAnnotations: false,
 			cc_load_policy: false,
 			useOnMobile: true,
-			mobileFallbackImage: null,
 			realfullscreen: true,
 			optimizeDisplay: true,
 		});
 	};
-
-	$('.player').on("YTPunstarted", function (e) {
-		$('.player').prepend('<img id="theImg" src="images/debating.jpg" />')
-
-	})
-
-	jQuery('.player').on("YTPBuffering", function (e) {
-		$('.player').prepend('<img id="theImg" src="images/debating.jpg" />')
-	});
-
 
 	$(function () {
 		mobileMenuOutsideClick();
